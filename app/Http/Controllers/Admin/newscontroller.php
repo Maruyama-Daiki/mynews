@@ -13,3 +13,5 @@ class newscontroller extends Controller
       return view('admin.news.create');
   }
 }
+
+unnti
