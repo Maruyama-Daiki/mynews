@@ -12,5 +12,10 @@ class newscontroller extends Controller
   {
       return view('admin.news.create');
   }
+  
+     public function create()
+  {
+      return view('admin.profile.create');
+  }
 }
 
