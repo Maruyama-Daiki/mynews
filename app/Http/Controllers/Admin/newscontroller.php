@@ -14,4 +14,3 @@ class newscontroller extends Controller
   }
 }
 
-unnti
