@@ -1,10 +1,30 @@
 git立ち上げてリポジトリ作って、コピーペーストする際にSSHに変更する。
 
+
 cd ~/environment/mynews  mynewsじゃないとgitも実行もできない
 
 php artisan serve --port=8080 実行前に打つコード
 
 git add .
 git commit -m 'message'
-git push origin main.    gitにpushするコード
+git push origin main    gitにpushするコード
 
+
+
+<!DOCTYPE html>
+html書く際に記載する文言。
+
+<html lang="ja"> 　
+コードは属性と呼ばれ、オプションを指定できます。
+langというオプションにjaという値を与えており、このコードは日本語のWebサイトであるという意味。
+
+<meta charset="UTF-8">   
+文字コードの設定、UTF-8は文字コードの中で、世界共通  
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">　
+windowsの基本ブラウザであるedgeに対応するという記載。
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">　
+画面幅を小さくしたとき、たとえばスマートフォンで見たときなどに文字や画像の大きさを調整してくれるタグです。
