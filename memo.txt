@@ -28,3 +28,24 @@ windowsの基本ブラウザであるedgeに対応するという記載。
 
 <meta name="viewport" content="width=device-width, initial-scale=1">　
 画面幅を小さくしたとき、たとえばスマートフォンで見たときなどに文字や画像の大きさを調整してくれるタグです。
+
+
+mysql -u root  : mysqlにログインするコマンド。
+
+データベース一覧取得
+show databases;
+
+データベース選択
+use mynews;
+
+テーブルのカラム一覧取得(省略可)
+show tables;
+
+テーブルのカラム一覧取得(省略可)
+show columns from users;
+
+テーブルのレコード一覧取得
+select * from users;
+
+quit : Mysqlモード終了コマンド
+
